@@ -138,7 +138,7 @@
 #define LSM9DS0_GYROSCALE_500DPS             (0b01 << 4)  // +/- 500 degrees per second rotation
 #define LSM9DS0_GYROSCALE_2000DPS            (0b10 << 4)  // +/- 2000 degrees per second rotation
 
-//	Structure for storing
+//	Structure for storing sensor data
 typedef struct vector_s
 {
 	int32_t x;
